@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.large-Wraper{
+  @apply container mx-auto max-w-[1440px]
+}
+
+.wraper{
+  @apply container mx-auto max-w-[1200px]
+}
+
+.section-heading {
+  @apply font-bold text-[24px] leading-[32px] sm:text-[30px] sm:leading-[40px] md:text-[36px] md:leading-[48px] lg:text-[40px] lg:leading-[52px];
+}
+.section-description {
+  @apply font-medium text-[14px] leading-[18px] text-[#667085] sm:text-[16px] sm:leading-[20px] md:text-[18px] md:leading-[22px] lg:text-[20px] lg:leading-[24px];
+}
